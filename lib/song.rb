@@ -17,7 +17,6 @@ class Song
   def self.new_by_filename(filename)
     # parse filename to find 1) song name [1] and 2) artist name [0]
     filename.split(" - ")
-    binding.pry
     # create new song instance
     # associate new song with artist
     # return new song instance
